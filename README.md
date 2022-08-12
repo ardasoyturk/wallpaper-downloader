@@ -4,4 +4,4 @@
 
 - <samp>it is designed for his wallpaper directories, so if you'd like to use it you might need to change the directories.</samp>
 - <samp>it only works on numbered files (0001.jpg, 0002.jpg), finds the biggest number and increments by one and saves the file. (if 0042.jpg is the biggest, saves with the name 0043.jpg)</samp>
-- <samp>and it only works on windows, this is because of the msvcrt module, i used it to automatically continue when it gets a keyboard input. you might want to change it to the <kbd>input</kbd> syntax if you're planning on using this in a linux/macos machine.</samp>
+- <samp>and it only works on windows, this is because of the msvcrt module, i used it to automatically continue when it gets a keyboard input. you might want to change it to the <code>input</code> syntax if you're planning on using this in a linux/macos machine.</samp>
