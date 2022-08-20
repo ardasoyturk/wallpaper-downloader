@@ -55,6 +55,6 @@ fileName = str(sorted(dirList, reverse=True)[0]+1).zfill(4) + "." + extension
 
 response = requests.get(clipboard)
 open(os.path.join(dir, fileName), "wb").write(response.content)
-print('islem basarili brother ardasoyturk codes iyi gunler diler')
+print('download successful')
 sleep(0.75)
 exit()
